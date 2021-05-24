@@ -1,0 +1,23 @@
+.logo-block {
+  background-image: url('../../../assets/header/background-header-left.png');
+  position: relative;
+  background-repeat: no-repeat;
+
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 30px;
+  }
+  @media (max-width: 768px) {
+    flex-basis: 185px;
+  }
+}
+
+.right-block {
+  background-image: url('../../../assets/header/background-header-right.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1040;
+}
